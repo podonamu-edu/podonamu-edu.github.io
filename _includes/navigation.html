@@ -1,0 +1,17 @@
+<nav>
+    <ul id="mobile-menu"> 
+        <li class="{% if page.url == '/'%} current {% else %} normal {% endif %}"><a href="{{site.url}}#home">Home</a></li>
+        <li><a href="{{site.url}}#About">About</a></li>
+        <li><a href="{{site.url}}#Services">Services</a></li>
+        <li><a href="{{site.url}}#portfolio">portfolio</a></li>
+        <li><a href="{{site.url}}#team">team</a></li>
+        <li><a href="{{site.url}}#price">price</a></li>
+        <li class="{% if page.url == '/blog.html/index.html' %} current {% else %} normal {% endif %}"><a href="{{site.url}}#Blog">Blog</a>
+            <ul class="submenu">
+                <Li><a href="blog.html">Latest Blog</a></Li>
+                <Li><a href="Blog-Details.html">Blog Details</a></Li>
+            </ul>
+        </li>
+        <li><a href="#Contact">Contact</a></li>
+    </ul>
+</nav>
