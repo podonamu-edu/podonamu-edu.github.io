@@ -144,7 +144,8 @@ p {
   font-size: 14px;
   text-transform: uppercase;
   padding: 35px 50px;
-  background: #f26c4f;
+  /*background: #f26c4f;*/
+  background: #113482;
   border-radius: 50px;
   font-weight: 800;
   color: #fff;
@@ -825,7 +826,8 @@ header {
     top: 48%;
     height: 3px;
     width: 40px;
-    background: #f26c4f;
+    /* background: #f26c4f; */
+    background: #113482;
     content: '';
   }
   .service-content h4 {
@@ -1176,10 +1178,10 @@ header {
    10. TEAM css
 ----------------------------------------*/
 .single-team-img {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   position: relative;
   z-index: 1;
-  border: 5px dashed #e3e3e3;
+  /* border: 5px dashed #e3e3e3; */
   border-radius: 50%;
   padding: 10px;
 }
