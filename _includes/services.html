@@ -1,12 +1,12 @@
 <!--======  SERVICE PART START ======-->
-<section class="service-area service-bg pt-140 pb-90" id="Services">
+<section class="service-area service-bg pt-60 pb-30" id="Services">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 offset-lg-3 text-center pb-80">
                 <div class="section-title service-title">
-                    <span><img src="{{relative_url}}/assets/images/service-text.png" alt=""></span>
-                    <p class="section-para"><span></span>About Us</p>
-                    <h1>Most Creative Agency For Your Project</h1>
+                    <!-- <span><img src="{{relative_url}}/assets/images/service-text.png" alt=""></span> -->
+                    <p class="section-para" style="font-family:NanumSquare"><span></span>참포도나무학원</p>
+                    <h1 style="font-family:NanumSquare;font-weight:800;margin-bottom:15px;">과목별 시스템</h1>
                 </div>
             </div>
         </div>
@@ -15,14 +15,18 @@
             <div class="col-lg-6 mb-4">
                 <div class="single-service-box">
                     <div class="single-service-icon-box">
-                        <p>{% if forloop.index < 10 %} 0{{forloop.index}} {% else %} {{forloop.index}} {% endif %}</p>
+                        <p  style="font-size:45px;font-family: 'yg-jalnan';">{{service.subject}}</p>
                         {% if service.icon %}
                           {{service.icon}}
                         {% endif %}
                     </div>
                     <div class="service-box-content">
-                        <h3>{{service.title}}</h3>
-                        <p>Inventore veritatis et quasi beata vitae dicta sunt explicabo. Neenms ipsam voluptatem voluptas</p>
+                        <h3 style="font-weight: bold;">{{service.title}}</h3>
+                        <p>
+                            <ul style="color:aliceblue;font-size:16px;">
+                                {{service.objective}}
+                            </ul>
+                        </p>
                         <a href="{{service.url}}" class="service-btn">Raed More <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>

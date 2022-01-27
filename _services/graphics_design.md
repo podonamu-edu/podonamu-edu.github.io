@@ -1,4 +1,5 @@
 ---
+subject: "수학"
 title: "Graphics Design"
 icon: '<i class="fas fa-bezier-curve"></i>'
 layout: service

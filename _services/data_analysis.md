@@ -1,7 +1,9 @@
 ---
-title: "Data Analysis"
-icon: '<i class="fas fa-chart-line"></i>'
+subject: "국어"
+title: "논리적 해석과 논리적 독해의 전략"
+icon: '<i class="fas fa-book"></i>'
 layout: service
+objective: '<li>- 체계적인 밀착지도</li><li>- 1:1 학생관리(클리닉)</li><li>- 학교별 특화수업</li>'
 ---
 
 <p>Inventore veritatis et quasi beata vitae dicta sunt explicabo. Neenms ipsam voluptatem voluptas Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus et reiciendis molestiae corporis aliquam quos quidem sit, natus magnam sint quam voluptatibus ipsum, ab laudantium aut velit quibusdam cumque tenetur dolorem nesciunt nostrum eius ipsam quo officia! Suscipit ex, esse. Consequuntur doloribus laborum, molestiae, consectetur hic, labore perspiciatis ipsam ex explicabo temporibus ad fugit doloremque inventore assumenda! Laboriosam quidem asperiores quas accusamus ab. Officiis ipsa eligendi autem nobis, doloremque iste deleniti ut quia, voluptas eos tempore! Ipsum quo, asperiores at ut. Sed blanditiis, officiis tempore quidem voluptate hic possimus doloremque dolor rerum recusandae repellendus est, nisi vero repudiandae necessitatibus vitae sapiente expedita quia nobis. Porro repellendus praesentium iste aut enim consectetur illum veritatis repudiandae dignissimos harum nobis, tenetur ad aperiam, numquam. Commodi tenetur totam et illum, alias possimus corporis ducimus perspiciatis odit, eos placeat, voluptatem distinctio iusto beatae. Facere tempora accusamus aspernatur distinctio in excepturi molestiae necessitatibus non, neque quos.</p>
