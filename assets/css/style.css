@@ -19,7 +19,7 @@
     04. SERVICE-CATEGORIES css
     05. ABOUT-US css
     06. SERVICE css
-    07. PORTFOLIO css
+    07. PORTFOLIO css (stat)
     08. CTA css
     09. SECTION-TITLE css
     10. TEAM css
@@ -1362,11 +1362,11 @@ header {
 
 
 /*----------------------------------------
-   12. PROJECTS css
+   12. PROJECTS css (stat)
 ----------------------------------------*/
 .project-counter-area {
-	padding-top: 270px;
-	padding-bottom: 130px;
+	padding-top: 80px;
+	padding-bottom: 100px;
 }
 .btn.counter-btn {
 	margin-top: 30px;
@@ -1381,11 +1381,12 @@ header {
 .counter-icon {
 	font-size: 50px;
 	margin-bottom: 40px;
-	color: #f26c4f;
+	/* color: #f26c4f; */
+  color:#113482;
 }
 .counter-text {
   padding-left: 40px;
-  border-left: 7px solid #f26c4f;
+  border-left: 7px solid #113482;
 }
 .counter-text h1 {
   font-size: 50px;
@@ -1394,6 +1395,15 @@ header {
 .counter-text p {
   font-size: 16px;
   font-weight: 500;
+}
+
+.stat-title {
+  display: inline-block;
+  font-size:26px;
+  /* font-family: 'yg-jalnan'; */
+  vertical-align:middle;
+  font-weight: 800;
+  color:#000;
 }
 
 

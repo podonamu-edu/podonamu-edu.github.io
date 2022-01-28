@@ -5,7 +5,14 @@ $(function () {
    //===== Prealoder
    $(window).load(function() {
     $("#loading").fadeOut(500);
-});
+   });
+
+// 수능 d-day
+   let _today = new Date();
+   let _day = new Date('2022-11-17');
+   let _gap = Math.ceil((_day.getTime() - _today.getTime()) / (1000 * 60 * 60 * 24));
+   $("#d-day").text(_gap);
+   
 
 //header-scroll
     let areaHeight = $('[data-scroll-area="true"]').height();
@@ -192,9 +199,8 @@ $('.main-menu nav ul').onePageNav();
     //===== counter up
     $('.count').counterUp({
         delay: 10,
-        time: 2000
+        time: 100
     });
-
 
     //====== Magnific Popup
 
