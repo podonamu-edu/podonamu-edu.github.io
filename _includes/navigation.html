@@ -1,17 +1,45 @@
 <nav>
     <ul id="mobile-menu"> 
-        <li class="{% if page.url == '/'%} current {% else %} normal {% endif %}"><a href="{{site.url}}#home">Home</a></li>
-        <li><a href="{{site.url}}#About">About</a></li>
-        <li><a href="{{site.url}}#Services">Services</a></li>
-        <li><a href="{{site.url}}#portfolio">portfolio</a></li>
-        <li><a href="{{site.url}}#team">team</a></li>
+        <!-- <li class="{% if page.url == '/'%} current {% else %} normal {% endif %}"><a href="{{site.url}}#home">Home</a></li> -->
+        <li><a href="{{site.url}}#About">학원소개</a>
+            <ul class="submenu">
+                <Li><a href="/intro/introduction.html">인사말</a></Li>
+                <Li><a href="Blog-Details.html">코로나방역시스템</a></Li>
+                <Li><a href="Blog-Details.html">시설안내</a></Li>
+                <Li><a href="Blog-Details.html">오시는길</a></Li>
+            </ul>
+        </li>
+        <li><a href="{{site.url}}#Services">입학안내</a>
+            <ul class="submenu">
+                <Li><a href="blog.html">입학절차</a></Li>
+                <Li><a href="Blog-Details.html">레벨테스트안내</a></Li>
+            </ul>
+        </li>
+        <li><a href="{{site.url}}#portfolio">교육시스템</a>
+            <ul class="submenu">
+                <Li><a href="blog.html">"학" 시스템</a></Li>
+                <Li><a href="Blog-Details.html">"습" 시스템</a></Li>
+                <Li><a href="Blog-Details.html">학생관리스스템</a></Li>
+            </ul>
+        </li>
+        <li><a href="{{site.url}}#team">합격현황</a>
+            <ul class="submenu">
+                <Li><a href="blog.html">합격자명단</a></Li>
+                <Li><a href="Blog-Details.html">합격수기</a></Li>
+            </ul>
+        </li>
+        <!--
         <li><a href="{{site.url}}#price">price</a></li>
         <li class="{% if page.url == '/blog.html/index.html' %} current {% else %} normal {% endif %}"><a href="{{site.url}}#Blog">Blog</a>
             <ul class="submenu">
                 <Li><a href="blog.html">Latest Blog</a></Li>
                 <Li><a href="Blog-Details.html">Blog Details</a></Li>
             </ul>
+        </li> -->
+        <li><a href="#Contact">커뮤니티</a>
+            <ul class="submenu">
+                <Li><a href="blog.html">공지사항</a></Li>
+            </ul>
         </li>
-        <li><a href="#Contact">Contact</a></li>
     </ul>
 </nav>

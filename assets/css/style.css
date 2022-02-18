@@ -605,11 +605,13 @@ header {
 ----------------------------------------*/
 
 .hero-bg-1{
-    background: url(../images/hero/main1.png);
+    /* background: url(../images/hero/main1.png); */
+    background: url(../images/intro/banner1.png);
     background-color: #ddd;
 }
 .hero-bg-2{
-    background: url(../images/hero/2.jpg);
+    /* background: url(../images/hero/2.jpg); */
+    background: url(../images/intro/banner1.png);
     background-color: #ddd;
 }
 .hero-bg-3{

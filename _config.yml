@@ -9,10 +9,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jpyonsei.co.kr" # the base hostname & protocol for your site, e.g. http://example.com
 
 #General Settings
-facebook_url: "https://facebook.com/tortoizthemes"
-twitter_url: "https://twitter.com/tortoizthemes"
-behance_url: "https://behance.com/tortoizthemes"
-instagram_url: "https://instagram.com/tortoizthemes"
+#facebook_url: "https://facebook.com/tortoizthemes"
+#twitter_url: "https://twitter.com/tortoizthemes"
+blog_url: "https://blog.naver.com/jpedu_"
+#instagram_url: "https://instagram.com/tortoizthemes"
 logo_url: "/assets/images/logo.png"
 
 
