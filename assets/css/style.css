@@ -2540,3 +2540,7 @@ h4.blog-details-heading::after {
   padding: 5px 0;
   border-bottom: 2px dotted #222;
 }
+img.sub-image {
+  width:100%;
+  text-align:center;
+}
