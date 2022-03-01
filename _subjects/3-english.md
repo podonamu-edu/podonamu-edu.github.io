@@ -1,8 +1,9 @@
 ---
 subject: "영어"
-title: ""
-icon: '<i class="fas fa-anchor"></i>'
+title: "다양한 난이도 속에서 변하지 않는 하나 '탄탄한 기본기'"
+icon: '<i class="fas fa-font"></i>'
 layout: service
+objective: '<li>- 문장의 구조를 보는 안목 기르기</li><li>- 개별적 실수/약점 분석</li><li>- 생소한 지문에 대한 면역력 기르기</li>'
 ---
 
 <p>Inventore veritatis et quasi beata vitae dicta sunt explicabo. Neenms ipsam voluptatem voluptas Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus et reiciendis molestiae corporis aliquam quos quidem sit, natus magnam sint quam voluptatibus ipsum, ab laudantium aut velit quibusdam cumque tenetur dolorem nesciunt nostrum eius ipsam quo officia! Suscipit ex, esse. Consequuntur doloribus laborum, molestiae, consectetur hic, labore perspiciatis ipsam ex explicabo temporibus ad fugit doloremque inventore assumenda! Laboriosam quidem asperiores quas accusamus ab. Officiis ipsa eligendi autem nobis, doloremque iste deleniti ut quia, voluptas eos tempore! Ipsum quo, asperiores at ut. Sed blanditiis, officiis tempore quidem voluptate hic possimus doloremque dolor rerum recusandae repellendus est, nisi vero repudiandae necessitatibus vitae sapiente expedita quia nobis. Porro repellendus praesentium iste aut enim consectetur illum veritatis repudiandae dignissimos harum nobis, tenetur ad aperiam, numquam. Commodi tenetur totam et illum, alias possimus corporis ducimus perspiciatis odit, eos placeat, voluptatem distinctio iusto beatae. Facere tempora accusamus aspernatur distinctio in excepturi molestiae necessitatibus non, neque quos.</p>
