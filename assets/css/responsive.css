@@ -514,9 +514,10 @@
         padding: 20px;
         font-size: 18px;
     }
-    /* .author-img {
-        float: none;
-    } */
+    .author-img {
+        /* float: none; */
+        display:inline-block;
+    }
     .comments-body {
         padding-left: 0;
     }
