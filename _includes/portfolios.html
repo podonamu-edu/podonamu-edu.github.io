@@ -17,7 +17,7 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            {% for portfolio in site.portfolios limit: 1 %}
+            {% for portfolio in site.data.facility.list limit: 1 %}
             <div class="col-lg-4 col-md-4">
                 <div class="single-portfolio-item">
                     <a href="{{portfolio.post_image}}" class="img-popup"><img src="{{portfolio.post_image}}"  alt="{{portfolio.title}}"/></a>
@@ -33,7 +33,7 @@
             {% endfor %}
             <div class="col-lg-8 col-md-8">
                 <div class="row">
-                   {% for portfolio in site.portfolios offset: 1 %}
+                   {% for portfolio in site.data.facility.list offset: 1 %}
                     <div class="col-lg-6 pb-30 col-md-6">
                         <div class="single-portfolio-item">
                             <a href="{{portfolio.post_image}}" class="img-popup"><img src="{{portfolio.post_image}}"  alt="{{portfolio.title}}"/></a>
