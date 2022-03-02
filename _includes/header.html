@@ -7,14 +7,14 @@
                     {% if site.phone_number %}
                     <div class="col-lg-3">
                         <div class="top-header-content">
-                            <span><i class="fas fa-phone"></i>{{site.phone_number}}</span>
+                            <span><a href="tel:{{site.phone_number}}" style="color:white" target="_blank"><i class="fas fa-phone"></i>{{site.phone_number}}</a></span>
                         </div>
                     </div>
                     {% endif %}
                     {% if site.address %}
                     <div class="col-lg-4">
                         <div class="top-header-content">
-                            <span><i class="fas fa-map-marker-alt"></i>{{site.address}}</span>
+                            <span><a href="http://naver.me/G3Jv5oYB" style="color:white" target="_blank"><i class="fas fa-map-marker-alt"></i>{{site.address}}</a></span>
                         </div>
                     </div>
                     {% endif %}
