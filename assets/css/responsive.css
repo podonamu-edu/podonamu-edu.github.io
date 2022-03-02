@@ -514,9 +514,9 @@
         padding: 20px;
         font-size: 18px;
     }
-    .author-img {
+    /* .author-img {
         float: none;
-    }
+    } */
     .comments-body {
         padding-left: 0;
     }
