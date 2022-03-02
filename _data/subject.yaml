@@ -1,0 +1,25 @@
+list:
+  - subject: "국어"
+    title: "논리적 해석과 논리적 독해의 전략"
+    icon: '<i class="fas fa-book"></i>'
+    layout: service
+    objective: '<li>- 체계적인 밀착지도</li><li>- 1:1 학생관리(클리닉)</li><li>- 학교별 특화수업</li>'
+  - subject: "수학"
+    title: "고등 수학을 보는 완벽한 패러다임"
+    icon: '<i class="fas fa-function"></i>'
+    layout: service
+    objective: '<li>- 선행부터 내신까지 확실한 커리큘럼</li><li>- 개념 설명을 통한 완벽한 이해</li><li>- 학교별 기출문제를 통한 내신 대비</li>'
+    link: "/system/hak.html#nav-math"
+  - subject: "영어"
+    title: "다양한 난이도 속에서 변하지 않는 하나 '탄탄한 기본기'"
+    icon: '<i class="fas fa-font"></i>'
+    layout: service
+    objective: '<li>- 문장의 구조를 보는 안목 기르기</li><li>- 개별적 실수/약점 분석</li><li>- 생소한 지문에 대한 면역력 기르기</li>'
+    link: "/system/hak.html#nav-english"
+  - subject: "탐구"
+    title: "흔들리지 않는 개념과 철저한 정리"
+    icon: '<i class="fas fa-search"></i>'
+    layout: service
+    objective: '<li>- 이해와 적용을 위한 수업</li><li>- 약점 공략(킬러특강)</li><li>- 철저한 자료와 선지 분석</li>'
+    link: "/system/hak.html#nav-sci-research"
+  
