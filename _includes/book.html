@@ -1,59 +1,29 @@
 <!--======  TEAM PART START ======-->
-<section class="team-area pt-60 pb-30" id="team">
+<section class="team-area pt-0 pb-30" id="team">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 offset-lg-3 text-center pb-80">
+            <div class="col-lg-6 offset-lg-3 text-center pb-10">
                 <div class="section-title team-title">
-                    <p class="section-para"><span></span>책</p>
-                    <h1>책책책</h1>
+                    <!-- <p class="section-para"><span></span>책</p> -->
+                    <h1>학습 교재</h1>
                 </div>
             </div>
         </div>
         <div class="row team-carousel-active">
-            <div class="col-lg-4">
-                <div class="single-team-area">
-                    <div class="single-team-img text-center">
-                        <img src="{{relative_url}}/assets/images/book/1.png" alt="">
-                    </div>
-                    <div class="single-team-content text-center">
-                        <h4>수능대비 기출문장분석</h4>
-                        <p>영어</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="single-team-area">
-                    <div class="single-team-img text-center">
-                        <img src="{{relative_url}}/assets/images/book/2.png" alt="">
-                    </div>
-                    <div class="single-team-content text-center">
-                        <h4>독서</h4>
-                        <p>국어</p>
+            {% for book in site.data.book.list %}
+                <div class="col-lg-4">
+                    <div class="single-team-area">
+                        <div class="single-team-img text-center">
+                            <img src="{{relative_url}}{{book.image}}" alt="">
+                        </div>
+                        <div class="single-team-content text-center">
+                            <h4>{{book.content}}</h4>
+                            <p>{{book.subject}}</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="single-team-area">
-                    <div class="single-team-img text-center">
-                        <img src="{{relative_url}}/assets/images/book/3.png" alt="">
-                    </div>
-                    <div class="single-team-content text-center">
-                        <h4>수능대비 유형독해</h4>
-                        <p>영어</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="single-team-area">
-                    <div class="single-team-img text-center">
-                        <img src="{{relative_url}}/assets/images/book/1.png" alt="">
-                    </div>
-                    <div class="single-team-content text-center">
-                        <h4>수능대비 기출문장분석</h4>
-                        <p>영어</p>
-                    </div>
-                </div>
-            </div>
+            {% endfor %}
+            
         </div>
     </div>
 </section>

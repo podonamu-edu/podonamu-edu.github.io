@@ -41,8 +41,8 @@ cover_image: "/assets/img/bg/page-title.jpg"
 collections:
   # features:
   #   output: true
-  subjects:
-    output: true
+  # subjects:
+  #   output: true
   success_stories:
     output: true
   # portfolios:
