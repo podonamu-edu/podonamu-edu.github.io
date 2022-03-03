@@ -18,7 +18,7 @@ logo_url: "/assets/images/logo.png"
 
 copyright_text: "&copy; 2022 참포도나무학원. All Rights Reserved"
 phone_number: "02) 2065-2831"
-address: "서울 화곡로 161 대성빌딩 4층"
+address: "강서구 화곡로 161 대성빌딩 4층"
 office_time: "Sun - Saturday : 08:00 - 24:00"
 
 # Build settings
@@ -42,6 +42,8 @@ collections:
   # features:
   #   output: true
   subjects:
+    output: true
+  success_stories:
     output: true
   # portfolios:
   #   output: true
