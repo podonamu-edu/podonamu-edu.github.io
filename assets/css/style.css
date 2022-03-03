@@ -160,6 +160,10 @@ p {
   letter-spacing: 3px;
   transition: .6s ease-in-out;
 }
+.btn-small {
+  padding: 15px 20px;
+  background: #f26c4f;
+}
 .btn i {
   transition: .6s;
 }
@@ -2551,4 +2555,95 @@ img.sub-image {
   width:100%;
   text-align:center;
   padding: 0 15px;
+}
+div.success-story-modal-diag {
+  margin: 1rem;
+  max-width: 100vw;
+}
+
+.success-story-main {
+  max-width: 1024px;
+  margin:0 auto 30px auto;
+}
+
+.success-story-main div.panel {
+  width:100%;
+  padding: 0 10px;
+  margin-bottom: 15px;
+}
+
+.success-story-main div.pic-panel {
+  background-color: #f9f9f7;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.success-story-main div.desc-panel {
+  background-color: #f2f0ee;
+  height: 100px;
+  padding:10px;
+}
+
+.success-story-main div.panel > a {
+  text-decoration: none;
+  color: unset;
+}
+
+.success-story-main div.panel > div.banner-panel {
+  height:400px;
+  position:relative;
+}
+
+.success-story-main div.panel > div.banner-panel > div.banner-content {
+  position: absolute;
+  width:100%;
+  height:100%;
+  display:inline-block;
+  background-position: right 10px bottom 10px;
+  background-size:150px;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+}
+
+.success-story-main div.panel > div.banner-panel > img {
+  width:100%;
+  position: absolute;
+  padding: 70px 10px 10px 10px;
+}
+
+.success-story-main div.desc-panel p {
+  margin-bottom: 0;
+}
+
+.success-story-main div.desc-panel p.univ {
+  height:32px;  
+  text-align: center;  
+}
+
+.success-story-main div.desc-panel p.univ > span {
+  background-repeat: no-repeat;
+  font-size: 18px;
+  font-weight: bold;
+  background-size: 32px;
+}
+
+.success-story-main div.desc-panel p.univ > span > img {
+  width: 28px;
+  height: 28px;
+  margin-right: 8px;
+  margin-top: -3px;
+}
+
+
+.success-story-main div.desc-panel p.dept {
+  font-size: 14px;
+  text-align:center;
+}
+
+.success-story-main div.desc-panel p.name {
+  text-align:center;
+  font-size: 14px;
+  font-weight: bold;
 }

@@ -1,0 +1,25 @@
+---
+layout: default
+title: 합격수기
+---
+
+{% include page_header.html %}
+<div class="container">
+    <div class="row no-gutter success-story-main " >
+        {% for success in site.success_stories %}
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-12 panel">
+                <a data-toggle="modal" href="#p{{ forloop.index }}">
+                    <div class="pic-panel" style="background-image:url({{ success.picture }})">
+                    </div>
+                    <div class="desc-panel">
+                        <p class="univ">
+                            <span><img src="/assets/images/univ/logo/{% include logo_func.html univ=success.university %}"/>{{ success.university }}</span>
+                        </p>
+                        <p class="dept">{{ success.dept }}</p>
+                        <p class="name">{{ success.name }} ({{ success.highschool }})</p>
+                    </div>
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+</div>
