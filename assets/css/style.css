@@ -1230,10 +1230,15 @@ header {
 }
 
 .team-carousel-active .slick-dots {
-	position: absolute;
+	/* position: absolute;
 	left: 46%;
 	transform: translatey(-50%);
-	bottom: -20%;
+	bottom: -20%; */
+
+  transform: translatey(-50%);
+  width: 100%;  
+  text-align: center;
+  margin-top: 60px;
 }
 .team-carousel-active .slick-dots li button{
   display: none;
