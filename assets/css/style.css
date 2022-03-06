@@ -2652,3 +2652,38 @@ div.success-story-modal-diag {
   font-size: 14px;
   font-weight: bold;
 }
+
+.close-modal {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  background-color: transparent;
+  z-index:5;
+}
+
+.close-modal:hover {
+  opacity: 0.3;
+}
+.close-modal .lr {
+  z-index: 1051;
+  width: 1px;
+  height: 75px;
+  margin-left: 35px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color:  #212529;
+}
+
+.close-modal .lr .rl {
+  z-index: 1052;
+  width: 1px;
+  height: 75px;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  background-color:  #212529;
+}

@@ -8,7 +8,7 @@ title: 합격수기
     <div class="row no-gutter success-story-main " >
         {% for success in site.success_stories %}
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-12 panel">
-                <a data-toggle="modal" href="#p{{ forloop.index }}">
+                <a data-toggle="modal" href="#p1">
                     <div class="pic-panel" style="background-image:url({{ success.picture }})">
                     </div>
                     <div class="desc-panel">
@@ -23,3 +23,4 @@ title: 합격수기
         {% endfor %}
     </div>
 </div>
+{% include modal.html %}
