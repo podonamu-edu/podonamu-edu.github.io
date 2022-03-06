@@ -2587,7 +2587,7 @@ div.success-story-modal-diag {
 
 .success-story-main div.desc-panel {
   background-color: #f2f0ee;
-  height: 100px;
+  height: 75px;
   padding:10px;
 }
 
@@ -2686,4 +2686,37 @@ div.success-story-modal-diag {
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
   background-color:  #212529;
+}
+
+.modal-content {
+  text-align: left;
+}
+
+.modal-content h2 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.modal-content p {
+  margin-bottom: 30px;
+  font-size:16px;
+}
+
+.modal-content p.item-intro {
+  font-size: 16px;
+  font-style: italic;
+  margin: 15px 0;
+}
+
+.modal-content ul.list-inline {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.modal-content img {
+  margin-bottom: 30px;
+}
+
+.modal-content button {
+  cursor: pointer;
 }

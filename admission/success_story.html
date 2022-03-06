@@ -8,12 +8,17 @@ title: 합격수기
     <div class="row no-gutter success-story-main " >
         {% for success in site.success_stories %}
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-12 panel">
-                <a data-toggle="modal" href="#p1">
-                    <div class="pic-panel" style="background-image:url({{ success.picture }})">
-                    </div>
+                <a data-toggle="modal" href="#p{{ forloop.index }}">
+                    {% if success.picture != nil %}                
+                        <div class="pic-panel" style="background-image:url({{ success.picture }})"></div>
+                    {% else %}
+                        <div class="pic-panel" style="background-image:url(/assets/images/success-story/anon.png)"></div>
+                    {% endif %}
                     <div class="desc-panel">
                         <p class="univ">
-                            <span><img src="/assets/images/univ/logo/{% include logo_func.html univ=success.university %}"/>{{ success.university }}</span>
+                        {% if success.university != nil %}
+                            <span><img src="/assets/images/univ/logo/{% include logo_func.html univ=success.university %}"/>{{ success.university }}</span>    
+                        {% endif %}
                         </p>
                         <p class="dept">{{ success.dept }}</p>
                         <p class="name">{{ success.name }} ({{ success.highschool }})</p>
@@ -23,4 +28,4 @@ title: 합격수기
         {% endfor %}
     </div>
 </div>
-{% include modal.html %}
+{% include success_story_modal.html %}
