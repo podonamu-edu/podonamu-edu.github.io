@@ -2720,3 +2720,27 @@ div.success-story-modal-diag {
 .modal-content button {
   cursor: pointer;
 }
+
+
+.sub_title_txt {
+  width: 100%;
+  padding-top:20px;
+  color: black;
+  text-align:center;
+}
+
+.sub_title_txt > p {
+  margin: 10px auto 20px auto;
+  font-weight: bold;
+  font-size:25px;
+}
+
+.sub_title_txt > hr {
+  height:1px;
+  border-width:0;
+  color:#0c3151;
+  background-color:#0c3151;
+  border-color:#0c3151;
+  width:30%;
+  margin: 0 auto 30px auto;
+}

@@ -1,0 +1,289 @@
+list:
+  - university: 연세대학교
+    name: 정*원
+    highschool: 광영여고
+  - university: 연세대학교
+    name: 신*섭
+    highschool: 화곡고
+  - university: 고려대학교
+    name: 김*경
+    highschool: 광영여고
+  - university: 고려대학교
+    name: 신*섭
+    highschool: 화곡고
+  - university: 고려대학교
+    name: 서*아
+    highschool: 명덕여고
+  - university: 서강대학교
+    name: 오*지
+    highschool: 등촌고
+  - university: 성균관대학교
+    name: 오*지
+    highschool: 등촌고
+  - university: 한양대학교
+    name: 유*규
+    highschool: 광영고
+  - university: 한양대학교
+    name: 윤*진
+    highschool: 백암고
+  - university: 한양대학교
+    name: 김이*야
+    highschool: 광영고
+  - university: 한양대학교
+    name: 김*언
+    highschool: 동양고
+  - university: 경희대학교
+    name: 김*헌
+    highschool: 신목고
+  - university: 경희대학교
+    name: 오*지
+    highschool: 등촌고
+  - university: 서울시립대학교
+    name: 정*원
+    highschool: 광여여고
+  - university: 서울시립대학교
+    name: 김*경
+    highschool: 광영여고
+  - university: 서울시립대학교
+    name: 윤*진
+    highschool: 백암고
+  - university: 서울시립대학교
+    name: 김*재
+    highschool: 광영고
+  - university: 중앙대학교
+    name: 오*지
+    highschool: 등촌고
+  - university: 중앙대학교
+    name: 정*호
+    highschool: 화곡고
+  - university: 중앙대학교
+    name: 이*호
+    highschool: 광영고
+  - university: 중앙대학교
+    name: 김*욱
+    highschool: 동양고
+  - university: 중앙대학교
+    name: 유*규
+    highschool: 광영고
+  - university: 홍익대학교
+    name: 유*늘
+    highschool: 명덕여고
+  - university: 건국대학교
+    name: 김*재
+    highschool: 광영고
+  - university: 건국대학교
+    name: 배*서
+    highschool: 백암고
+  - university: 동국대학교
+    name: 김*언
+    highschool: 동양고
+  - university: 숙명여자대학교
+    name: 강*혜
+    highschool: 화곡보건고
+  - university: 숙명여자대학교
+    name: 배*서
+    highschool: 백암고
+  - university: 국민대학교
+    name: 김*태
+    highschool: 백암고
+  - university: 국민대학교
+    name: 박*랑
+    highschool: 덕원여고
+  - university: 숭실대학교
+    name: 정*후
+    highschool: 광영고
+  - university: 숭실대학교
+    name: 안*빈
+    highschool: 광영고
+  - university: 숭실대학교
+    name: 김*욱
+    highschool: 광영고
+  - university: 숭실대학교
+    name: 김*나
+    highschool: 수명고
+  - university: 숭실대학교
+    name: 이*령
+    highschool: 광여여고
+  - university: 숭실대학교
+    name: 김*원
+    highschool: 동양고
+  - university: 숭실대학교
+    name: 박*영
+    highschool: 덕원여고
+  - university: 세종대학교
+    name: 오*지
+    highschool: 등촌고
+  - university: 세종대학교
+    name: 권*영
+    highschool: 동양고
+  - university: 세종대학교
+    name: 최*원
+    highschool: 동양고
+  - university: 인하대학교
+    name: 윤*진
+    highschool: 백암고
+  - university: 인하대학교
+    name: 신*섭
+    highschool: 화곡고
+  - university: 인하대학교
+    name: 이*경
+    highschool: 덕원여고
+  - university: 국립인천대학교
+    name: 한*민
+    highschool: 백암고
+  - university: 국립인천대학교
+    name: 이*호
+    highschool: 광영고
+  - university: 국립인천대학교
+    name: 사*민
+    highschool: 백암고
+  - university: 동덕여자대학교
+    name: 유*늘
+    highschool: 명덕여고
+  - university: 덕성여자대학교
+    name: 이*연
+    highschool: 백암고
+  - university: 서울여자대학교
+    name: 최*지
+    highschool: 세현고
+  - university: 서울여자대학교
+    name: 권*아
+    highschool: 한서고
+  - university: 서울여자대학교
+    name: 심*연
+    highschool: 광영여고
+  - university: 단국대학교
+    name: 김*연
+    highschool: 광영여고
+  - university: 단국대학교
+    name: 신*섭
+    highschool: 화곡고
+  - university: 단국대학교
+    name: 김*경
+    highschool: 광영여고
+  - university: 단국대학교
+    name: 김*재
+    highschool: 광영고
+  - university: 단국대학교
+    name: 유*규
+    highschool: 광영고
+  - university: 단국대학교
+    name: 심*연
+    highschool: 광영여고
+  - university: 단국대학교
+    name: 최*원
+    highschool: 백암고
+  - university: 단국대학교
+    name: 배*서
+    highschool: 백암고
+  - university: 단국대학교
+    name: 김*태
+    highschool: 백암고
+  - university: 단국대학교
+    name: 최*원
+    highschool: 동양고
+  - university: 단국대학교
+    name: 이*호
+    highschool: 광영고
+  - university: 단국대학교
+    name: 한*민
+    highschool: 백암고
+  - university: 단국대학교
+    name: 사*민
+    highschool: 백암고
+  - university: 상명대학교
+    name: 하*석
+    highschool: 화곡고
+  - university: 상명대학교
+    name: 이*서
+    highschool: 광영여고
+  - university: 명지대학교
+    name: 한*성
+    highschool: 광영남고
+  - university: 명지대학교
+    name: 박*원
+    highschool: 광영남고
+  - university: 명지대학교
+    name: 진*혁
+    highschool: 화곡고
+  - university: 서경대학교
+    name: 김*훈
+    highschool: 화곡고
+  - university: 성결대학교
+    name: 강*은
+    highschool: 광영여고
+  - university: 성결대학교
+    name: 남*경
+    highschool: 명덕여고
+  - university: 성결대학교
+    name: 김*현
+    highschool: 경복여고
+  - university: 용인대학교
+    name: 정*총
+    highschool: 상주고
+  - university: 용인대학교
+    name: 김*영
+    highschool: 광영고
+  - university: 용인대학교
+    name: 김*재
+    highschool: 광영고
+  - university: 용인대학교
+    name: 신*재
+    highschool: 양천고
+  - university: 강남대학교
+    name: 곽*호
+    highschool: 광영고
+  - university: 수원대학교
+    name: 유*연
+    highschool: 광영여고
+  - university: 수원대학교
+    name: 이*원
+    highschool: 백암고
+  - university: 수원대학교
+    name: 남*지
+    highschool: 명덕여고
+  - university: 백석대학교
+    name: 김*규
+    highschool: 백암고
+  - university: 국립강원대학교
+    name: 이*천
+    highschool: 한서고
+  - university: 나사렛대학교
+    name: 최*은
+    highschool: 덕원여고
+  - university: 나사렛대학교
+    name: 피*아
+    highschool: 광영여고
+  - university: 나사렛대학교
+    name: 김*나
+    highschool: 광영여고
+  - university: 나사렛대학교
+    name: 임*학
+    highschool: 덕산고
+  - university: 한서대학교
+    name: 오*석
+    highschool: 백암고
+  - university: 한서대학교
+    name: 김*현
+    highschool: 금융고
+  - university: 카톨릭관동대학교
+    name: 이*찬
+    highschool: 광영고
+  - university: 카톨릭관동대학교
+    name: 김*영
+    highschool: 광영고
+  - university: 청운대학교
+    name: 김*후
+    highschool: 영일고
+  - university: 한국체육대학교
+    name: 조*연
+    highschool: 광영고
+  - university: 한국체육대학교
+    name: 김*현
+    highschool: 백암고
+  - university: 한국체육대학교
+    name: 이*재
+    highschool: 백암고
+  - university: 한국체육대학교
+    name: 심*연
+    highschool: 광영여고

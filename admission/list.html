@@ -1,6 +1,27 @@
 ---
 layout: default
-title: 합격자 명단
+title: 🎊 합격자 명단
 ---
 
-{% include page_header.html %}
+{% include page_header_title.html %}
+<div style="margin:0 30px 30px 30px;">
+    <table class="table table-condensed">
+        <thead class="thead-dark">
+            <tr>
+                <th>대학교</th>
+                <th>이름</th>
+                <th>출신교</th>
+            </tr>
+        </thead>
+        <tbody>
+            {%- for p in site.data.admission.list -%}
+                <tr>
+                    <td><img src="/assets/images/univ/logo/{% include logo_func.html univ=p.university %}" width="24px" height="24px" style="margin-right:10px"/>{{ p.university }}</td>
+                    <td>{{ p.name }}</td>
+                    <td>{{ p.highschool }}</td>
+                </tr>
+            {%- endfor -%}
+        </tbody>
+
+    </table>
+</div>

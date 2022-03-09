@@ -4,6 +4,7 @@ list:
     icon: '<i class="fas fa-book"></i>'
     layout: service
     objective: '<li>- 체계적인 밀착지도</li><li>- 1:1 학생관리(클리닉)</li><li>- 학교별 특화수업</li>'
+    link: "/system/hak.html#nav-korean"
   - subject: "수학"
     title: "고등 수학을 보는 완벽한 패러다임"
     icon: '<i class="fas fa-function"></i>'
