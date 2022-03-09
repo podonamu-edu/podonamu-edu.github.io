@@ -284,7 +284,8 @@
         margin-top: 30px;
     }
     .project-counter-area {
-        padding-top: 130px;
+        /* padding-top: 130px; */
+        padding-top:0;
     }
     .breadcrumb-content {
         padding-top: 240px;
@@ -342,6 +343,10 @@
     .slicknav_menu{
         display: block;
       }
+
+    .single-testimonial-content {
+        padding-top:50px;
+    }
       
 .mobile-menu-wrap {
     position: absolute;
