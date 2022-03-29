@@ -949,6 +949,8 @@ header {
 ----------------------------------------*/
 .service-bg{background: url(../images/service.jpg);background-color: #ddd;}
 
+.service-bg2 {background: url(../images/service2.png);background-color: #ddd;}
+
 .service-area {
     background-position: center center;
     background-size: cover;
