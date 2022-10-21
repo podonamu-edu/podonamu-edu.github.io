@@ -608,20 +608,45 @@ header {
    03. HERO css
 ----------------------------------------*/
 
-.hero-bg-1{
+.hero-bg-1 {
     /* background: url(../images/hero/main1.png); */
     background: url(../images/intro/banner1.png);
     background-color: #ddd;
 }
-.hero-bg-2{
+.hero-bg-2 {
     /* background: url(../images/hero/2.jpg); */
     background: url(../images/intro/banner1.png);
     background-color: #ddd;
 }
-.hero-bg-3{
+.hero-bg-3 {
   background: url(../images/hero/3.jpg);
   background-color: #ddd;
 }
+.hero-bg-4 {
+    background: url(../images/hero/winter_school.png);
+    background-color: #ddd;
+}
+
+
+.hero-gradient-text {
+    display: inline-block;
+    /* margin: 50px auto 0; */
+    /* padding: 10px 25px; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* background: #fff; */
+    /* font-size: 20px;
+    font-weight: 700; */
+    /* text-align: center;
+    cursor: pointer; */
+    user-select: none;
+}
+
+.hero-gradient-text span {
+    background: linear-gradient(to right, #00b1ff , #be13e8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 .single-hero-area {
     position: relative;
@@ -656,6 +681,8 @@ header {
     z-index: 1;
     padding-left: 35px;
   }
+
+
   .hero-para:before {
     position: absolute;
     width: 5px;
@@ -665,6 +692,16 @@ header {
     background: #f26c4f;
     content: '';
   }
+
+  .hero-para-2 {
+    color:white;
+  }
+
+  .hero-para-2::before {
+    background: navy;
+    left: 15px;
+  }
+
   .hero-heading {
     font-size: 80px;
     font-weight: 800;
