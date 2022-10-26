@@ -24,6 +24,9 @@
     .hero-para {
         font-size: 22px;
     }
+    .hero-para-3 {
+        font-size: 46px;
+    }
     .hero-heading {
         font-size: 70px;
     }
@@ -186,6 +189,9 @@
     }
     .hero-para {
         font-size: 20px;
+    }
+    .hero-para-3 {
+        font-size: 36px;
     }
     .hero-para::before {
         height: 64px;
@@ -398,6 +404,10 @@
     .hero-para {
         font-size: 16px;
         line-height: 25px;
+    }
+    .hero-para-3 {
+        font-size: 32px;
+        /* line-height: 25px; */
     }
     .hero-para::before {
         height: 50px;

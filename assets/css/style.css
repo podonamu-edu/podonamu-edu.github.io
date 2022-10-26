@@ -626,6 +626,10 @@ header {
     background: url(../images/hero/winter_school.png);
     background-color: #ddd;
 }
+.hero-bg-5 {
+  background: url(../images/hero/re_school.png);
+  background-color: #ddd;
+}
 
 
 .hero-gradient-text {
@@ -695,6 +699,18 @@ header {
 
   .hero-para-2 {
     color:white;
+  }
+
+  .hero-para-3 {
+    color:white;
+    font-size: 56px;
+  }
+
+  .hero-para-3::before {
+    background: navy;
+    height:50px;
+    left: 15px;
+    top: -8px;
   }
 
   .hero-para-2::before {
