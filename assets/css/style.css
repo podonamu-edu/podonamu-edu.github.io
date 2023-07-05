@@ -631,6 +631,11 @@ header {
   background-color: #ddd;
 }
 
+.hero-bg-6 {
+    background: url(../images/hero/summer_school.png);
+    background-color: #ddd;
+}
+
 
 .hero-gradient-text {
     display: inline-block;
