@@ -56,6 +56,7 @@
   font-style: normal;
 }
 
+
 body {
     font-family: 'NanumSquare', 'Poppins', sans-serif;
     font-weight: normal;
@@ -636,6 +637,10 @@ header {
     background-color: #ddd;
 }
 
+.hero-bg-7 {
+  background: url(../images/hero/winter_school_2024.png);
+  background-color: #ddd;
+}
 
 .hero-gradient-text {
     display: inline-block;
@@ -656,6 +661,11 @@ header {
     -webkit-text-fill-color: transparent;
 }
 
+.hero-gradient-text-2 span {
+  background: linear-gradient(to left, #A9CBE5, #538AC4, #1E4CBA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .single-hero-area {
     position: relative;
