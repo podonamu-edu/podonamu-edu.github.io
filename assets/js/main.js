@@ -9,7 +9,7 @@ $(function () {
 
 // 수능 d-day
    let _today = new Date();
-   let _day = new Date('2023-11-16');
+   let _day = new Date('2024-11-14');
    let _gap = Math.ceil((_day.getTime() - _today.getTime()) / (1000 * 60 * 60 * 24));
    $("#d-day").text(_gap);
    
