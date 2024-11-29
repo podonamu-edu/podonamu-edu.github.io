@@ -642,6 +642,11 @@ header {
   background-color: #ddd;
 }
 
+.hero-bg-8 {
+  background: url(../images/hero/winter_school_2025.png);
+  background-color: #ddd;
+}
+
 .hero-gradient-text {
     display: inline-block;
     /* margin: 50px auto 0; */
